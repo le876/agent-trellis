@@ -1,0 +1,8 @@
+---
+name: project-pre-push-checks
+description: Select and run the smallest safe checks that cover an outgoing repository diff before pushing, marking it ready for review, or claiming validation passed.
+---
+
+# Project Pre-Push Checks
+
+Inspect the outgoing diff, applicable instructions, and established validation entry points. Map each changed behavior or contract to the smallest relevant check. Run safe local checks from narrow to broad, including documentation and metadata checks where applicable. Do not perform production or external side effects. Report commands and observed outcomes exactly; skipped, blocked, or unavailable checks are not passes.

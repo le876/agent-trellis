@@ -1,0 +1,26 @@
+# Agent Notes
+
+Agent Notes 保存无法仅从当前代码或 owning 文档中恢复的长期决策和取舍。
+
+## 生命周期
+
+1. 在作出长期决策之前或同时创建 proposed Note。
+2. 决策尚未解决时保持 `proposed` 状态。
+3. 只有实现和所需文档与决策一致时，才改为 `implemented`。
+4. 标记被取代的 Note 并链接替代项；不要静默重写历史。
+5. 仅移除不包含长期信息的 Note，并依靠正常版本控制历史进行恢复。
+
+## 位置和 schema
+
+使用 `.agents/notes/<status>/<area>/YYYY-MM-DD-short-title.md`，包含以下字段：
+
+- Status
+- Date
+- Owners
+- Decision
+- Context
+- Alternatives
+- Consequences
+- Verification
+
+Note 拥有理由和取舍，不拥有重复的当前状态事实或临时任务进度。

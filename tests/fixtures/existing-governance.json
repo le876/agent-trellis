@@ -1,0 +1,14 @@
+{
+  "scenario": "existing-governance",
+  "evidence": ["source", "existing-instructions", "existing-documentation"],
+  "existing": ["AGENTS.md", "docs/architecture.md"],
+  "dirty": ["src/example.ext"],
+  "expected": {
+    "audit_writes": 0,
+    "confirmation_required": true,
+    "action": "merge-and-preserve",
+    "overwrite_existing": false,
+    "preserve_dirty": true,
+    "repeat_action": "drift-audit"
+  }
+}

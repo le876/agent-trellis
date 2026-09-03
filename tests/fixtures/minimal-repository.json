@@ -1,0 +1,13 @@
+{
+  "scenario": "minimal-repository",
+  "evidence": ["source", "documented-test-entry-point"],
+  "existing": [],
+  "dirty": [],
+  "expected": {
+    "audit_writes": 0,
+    "confirmation_required": true,
+    "action": "create-core",
+    "conditional_owners": [],
+    "repeat_action": "drift-audit"
+  }
+}

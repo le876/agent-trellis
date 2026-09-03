@@ -1,0 +1,26 @@
+# Agent Notes
+
+Agent Notes preserve durable decisions and tradeoffs that are not recoverable from current code or owning documentation alone.
+
+## Lifecycle
+
+1. Create a proposed Note before or with a durable decision.
+2. Keep status `proposed` while the decision remains unresolved.
+3. Change status to `implemented` only when implementation and required documentation agree with the decision.
+4. Mark a superseded Note and link its replacement; do not silently rewrite history.
+5. Remove only notes that contain no durable information, using normal version-control history for recovery.
+
+## Location and schema
+
+Use `.agents/notes/<status>/<area>/YYYY-MM-DD-short-title.md` with these fields:
+
+- Status
+- Date
+- Owners
+- Decision
+- Context
+- Alternatives
+- Consequences
+- Verification
+
+Notes own reasons and tradeoffs, not duplicated current-state facts or temporary task progress.

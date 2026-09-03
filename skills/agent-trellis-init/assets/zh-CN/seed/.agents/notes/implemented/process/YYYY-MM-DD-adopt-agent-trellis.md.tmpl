@@ -1,0 +1,28 @@
+# 采用仓库内 Agent 治理
+
+- Status: implemented
+- Date: {{ADOPTION_DATE}}
+- Owners: {{DECISION_OWNERS}}
+
+## 决策
+
+采用最小仓库内治理层：用明确 owner 管理事实，用 Agent Notes 保存长期决策，用 Active Work 保存跨会话临时状态，并用项目 Skills 保存可复用工作流。
+
+## 背景
+
+{{ADOPTION_CONTEXT}}
+
+## 备选方案
+
+- 只在任务对话中保存指导。未采用，因为长期边界无法在后续工作中发现。
+- 脱离仓库证据生成完整框架。未采用，因为推测性政策会错误描述当前实现。
+
+## 影响
+
+- 治理从有证据支持的最小实现开始，并通过实际使用生长。
+- 已有项目规则在其既定范围内继续有效。
+- 新增长期事实只能有一个 owner；其他文档链接该 owner。
+
+## 验证
+
+{{ADOPTION_VERIFICATION}}

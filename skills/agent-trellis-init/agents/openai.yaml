@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Trellis Init"
+  short_description: "Bootstrap repository-native Codex governance"
+  default_prompt: "Use $agent-trellis-init to audit this repository and propose a minimal governance layer."

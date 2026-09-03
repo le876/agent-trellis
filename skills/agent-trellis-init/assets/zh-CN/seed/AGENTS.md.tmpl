@@ -1,0 +1,32 @@
+# AGENTS.md
+
+本仓库包含 {{PROJECT_NAME}}。{{PROJECT_SUMMARY}}
+
+## 边界
+
+- Git 根为 `{{GIT_ROOT}}`。
+- {{REPOSITORY_BOUNDARIES}}
+- 保留用户已有修改。开始和结束非平凡工作时，核对分支、HEAD 和受影响的工作树。
+- 未经当前任务中的用户明确授权，不得推送。
+
+## 事实归属
+
+- [系统架构](docs/architecture.md) 拥有当前组件与接口关系。
+- [开发](docs/development.md) 拥有环境设置和 canonical 开发命令。
+- [测试](docs/testing.md) 拥有验证入口状态和结果解释。
+- [Agent Notes](.agents/notes/README.md) 拥有长期决策和取舍。
+- [Active Work](.agents/work/README.md) 拥有跨会话临时执行状态。
+- {{CONDITIONAL_OWNER_LINKS}}
+
+每项长期事实只设置一个 owner，其他位置通过链接引用。
+
+## 工作流
+
+- 修改行为或契约前，先阅读 owning 文档。
+- 使用适用范围最窄的 `AGENTS.md` 和项目 Skill。
+- 保持当前状态文档与可观察实现一致。
+- 只报告实际运行的检查和实际观察到的结果。
+
+## 高影响操作
+
+{{HIGH_IMPACT_ROUTING}}

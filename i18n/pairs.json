@@ -1,0 +1,32 @@
+{
+  "canonical_language": "en",
+  "translation_language": "zh-CN",
+  "pairs": [
+    {"en": "README.md", "zh": "README.zh-CN.md", "navigable": true},
+    {"en": "AGENTS.md", "zh": "AGENTS.zh-CN.md", "navigable": true},
+    {"en": "THIRD_PARTY_NOTICES.md", "zh": "THIRD_PARTY_NOTICES.zh-CN.md", "navigable": true},
+    {"en": "tests/scenarios.md", "zh": "tests/scenarios.zh-CN.md", "navigable": true},
+    {"en": "skills/agent-trellis-init/SKILL.md", "zh": "skills/agent-trellis-init/SKILL.zh-CN.md", "navigable": true},
+    {"en": "skills/agent-trellis-init/references/discovery.md", "zh": "skills/agent-trellis-init/references/discovery.zh-CN.md", "navigable": true},
+    {"en": "skills/agent-trellis-init/references/generation-contract.md", "zh": "skills/agent-trellis-init/references/generation-contract.zh-CN.md", "navigable": true},
+    {"en": "skills/agent-trellis-init/references/validation.md", "zh": "skills/agent-trellis-init/references/validation.zh-CN.md", "navigable": true},
+    {"en": "skills/agent-trellis-init/assets/en/seed/AGENTS.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/AGENTS.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/docs/AGENTS.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/docs/AGENTS.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/docs/architecture.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/docs/architecture.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/docs/development.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/docs/development.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/docs/testing.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/docs/testing.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/notes/README.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/notes/README.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/notes/AGENTS.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/notes/AGENTS.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/notes/implemented/process/YYYY-MM-DD-adopt-agent-trellis.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/notes/implemented/process/YYYY-MM-DD-adopt-agent-trellis.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/work/README.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/work/README.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/work/AGENTS.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/work/AGENTS.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-doc/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-doc/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-prose-standard/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-prose-standard/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-trim-cot-leakage/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-trim-cot-leakage/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-code-review/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-code-review/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-find-simplifications/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-find-simplifications/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-pre-push-checks/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-pre-push-checks/SKILL.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/conditional/docs/safety.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/conditional/docs/safety.md.tmpl", "navigable": false},
+    {"en": "skills/agent-trellis-init/assets/en/seed/conditional/docs/contracts.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/conditional/docs/contracts.md.tmpl", "navigable": false}
+  ]
+}

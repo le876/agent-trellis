@@ -1,0 +1,32 @@
+# AGENTS.md
+
+This repository contains {{PROJECT_NAME}}. {{PROJECT_SUMMARY}}
+
+## Boundaries
+
+- The Git root is `{{GIT_ROOT}}`.
+- {{REPOSITORY_BOUNDARIES}}
+- Preserve existing user changes. Check the branch, HEAD, and affected worktree before and after non-trivial work.
+- Do not push without explicit user authorization in the current task.
+
+## Fact ownership
+
+- [Architecture](docs/architecture.md) owns current component and interface relationships.
+- [Development](docs/development.md) owns environment setup and canonical developer commands.
+- [Testing](docs/testing.md) owns validation entry-point status and result interpretation.
+- [Agent Notes](.agents/notes/README.md) own durable decisions and tradeoffs.
+- [Active Work](.agents/work/README.md) owns temporary cross-session execution state.
+- {{CONDITIONAL_OWNER_LINKS}}
+
+Give each durable fact one owner and link to it elsewhere.
+
+## Workflow
+
+- Read the owning documents before changing behavior or contracts.
+- Use the narrowest applicable `AGENTS.md` and project Skill.
+- Keep current-state documentation aligned with observable implementation.
+- Report only checks actually run and outcomes actually observed.
+
+## High-impact operations
+
+{{HIGH_IMPACT_ROUTING}}

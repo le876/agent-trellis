@@ -1,0 +1,13 @@
+{
+  "scenario": "high-impact-operation",
+  "evidence": ["source", "external-production-write-path"],
+  "existing": [],
+  "dirty": [],
+  "expected": {
+    "audit_writes": 0,
+    "confirmation_required": true,
+    "action": "create-core-and-conditional",
+    "conditional_owners": ["docs/safety.md"],
+    "repeat_action": "drift-audit"
+  }
+}
