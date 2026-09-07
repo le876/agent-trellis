@@ -27,3 +27,7 @@ DeepSeek Harness is distributed under the following MIT License:
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+## Matt Pocock Skills
+
+The `domain-modeling`, `grill-with-docs`, and `diagnosing-bugs` Skills adapt [mattpocock/skills](https://github.com/mattpocock/skills) at commit `3cca18b368ae95cdbdebbff572ccafa662551015`. Project guidance replaces fixed glossary and decision-record locations; debugging follows project authorization, and `grill-with-docs` composes the separately installed `domain-modeling` Skill. The upstream MIT notices are retained in each Skill's `LICENSE` file.

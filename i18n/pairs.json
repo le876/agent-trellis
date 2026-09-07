@@ -27,6 +27,10 @@
     {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-find-simplifications/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-find-simplifications/SKILL.md.tmpl", "navigable": false},
     {"en": "skills/agent-trellis-init/assets/en/seed/.agents/skills/project-pre-push-checks/SKILL.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/.agents/skills/project-pre-push-checks/SKILL.md.tmpl", "navigable": false},
     {"en": "skills/agent-trellis-init/assets/en/seed/conditional/docs/safety.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/conditional/docs/safety.md.tmpl", "navigable": false},
-    {"en": "skills/agent-trellis-init/assets/en/seed/conditional/docs/contracts.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/conditional/docs/contracts.md.tmpl", "navigable": false}
+    {"en": "skills/agent-trellis-init/assets/en/seed/conditional/docs/contracts.md.tmpl", "zh": "skills/agent-trellis-init/assets/zh-CN/seed/conditional/docs/contracts.md.tmpl", "navigable": false},
+    {"en": "skills/domain-modeling/SKILL.md", "zh": "skills/domain-modeling/SKILL.zh-CN.md", "navigable": false},
+    {"en": "skills/grill-with-docs/SKILL.md", "zh": "skills/grill-with-docs/SKILL.zh-CN.md", "navigable": false},
+    {"en": "skills/grill-with-docs/references/grilling.md", "zh": "skills/grill-with-docs/references/grilling.zh-CN.md", "navigable": false},
+    {"en": "skills/diagnosing-bugs/SKILL.md", "zh": "skills/diagnosing-bugs/SKILL.zh-CN.md", "navigable": false}
   ]
 }

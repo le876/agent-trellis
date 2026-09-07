@@ -271,6 +271,16 @@ Active Work 是临时的。任务完成时：
 
 生成语言跟随目标仓库已经建立的文档语言；语言不明确时初始化器会询问。只有仓库证据确有需要时，才生成安全、信息安全、数据契约、部署或其他专项 owner。
 
+## 附加 Skills
+
+这些可选 Skill 可通过 `$skill-installer` 从本仓库单独安装：
+
+- [`domain-modeling`](skills/domain-modeling/SKILL.zh-CN.md)：依照项目已有 owner 澄清术语、概念和关系。
+- [`grill-with-docs`](skills/grill-with-docs/SKILL.zh-CN.md)：通过访谈澄清方案或设计；需同时安装 `skills/grill-with-docs` 与 `skills/domain-modeling`。通过 `$grill-with-docs` 显式调用。
+- [`diagnosing-bugs`](skills/diagnosing-bugs/SKILL.zh-CN.md)：建立可复现反馈循环、检验假设、修复问题并清理。
+
+安装路径为 `skills/domain-modeling`、`skills/grill-with-docs` 和 `skills/diagnosing-bugs`。有依赖关系的两个 Skill 应保留原名并位于同一 Skills 目录。这些 Skill 独立于初始化器生成的项目 Skill；来源与许可证见[第三方声明](THIRD_PARTY_NOTICES.zh-CN.md)。
+
 ## 日常使用
 
 大多数情况下，用户不需要在每次 prompt 中重述治理流程，只需描述真正的任务。

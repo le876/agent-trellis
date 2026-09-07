@@ -27,3 +27,7 @@ DeepSeek Harness 按以下 MIT 许可证分发：
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+## Matt Pocock Skills
+
+`domain-modeling`、`grill-with-docs` 和 `diagnosing-bugs` 适配自 [mattpocock/skills](https://github.com/mattpocock/skills)，固定提交为 `3cca18b368ae95cdbdebbff572ccafa662551015`。项目指导替代固定的术语表与决策记录位置；调试遵循项目授权，`grill-with-docs` 组合单独安装的 `domain-modeling` Skill。每个 Skill 的 `LICENSE` 文件均保留上游 MIT 声明。

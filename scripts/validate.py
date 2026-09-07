@@ -15,7 +15,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+", re.MULTILINE)
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 PLACEHOLDER_RE = re.compile(r"\{\{[A-Z][A-Z0-9_]*\}\}")
 SKILL_FILES = (
-    ROOT / "skills" / "agent-trellis-init" / "SKILL.md",
+    *sorted((ROOT / "skills").glob("*/SKILL.md")),
     *sorted((ROOT / "skills" / "agent-trellis-init" / "assets").rglob("SKILL.md.tmpl")),
 )
 

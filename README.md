@@ -271,6 +271,16 @@ It does not overwrite existing rules, commit, push, contact production systems, 
 
 The generated language follows the target repository's established documentation language. The initializer asks when that language is ambiguous. Safety, security, data-contract, deployment, and other specialized owners are generated only when repository evidence requires them.
 
+## Additional Skills
+
+These optional Skills can be installed separately with `$skill-installer` from this repository:
+
+- [`domain-modeling`](skills/domain-modeling/SKILL.md): clarify terminology, concepts, and relationships using the project's existing owners.
+- [`grill-with-docs`](skills/grill-with-docs/SKILL.md): interview a plan or design; install both `skills/grill-with-docs` and `skills/domain-modeling` together. Invoke it explicitly with `$grill-with-docs`.
+- [`diagnosing-bugs`](skills/diagnosing-bugs/SKILL.md): establish a reproducible feedback loop, test hypotheses, fix the bug, and clean up.
+
+Install paths are `skills/domain-modeling`, `skills/grill-with-docs`, and `skills/diagnosing-bugs`. Keep the dependent pair under their original names in the same Skills directory. These Skills are separate from the initializer's generated project Skills; their sources and licenses are recorded in [Third-Party Notices](THIRD_PARTY_NOTICES.md).
+
 ## Everyday use
 
 Most users do not need to restate the governance workflow in every prompt. Describe the actual task.
